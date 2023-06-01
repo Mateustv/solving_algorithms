@@ -1,6 +1,6 @@
-def isAnagram(s, t):
+def isAnagram(v, t):
   test_anagram = {}
-  for i in s:
+  for i in v:
       if i in test_anagram:
           test_anagram[i] += 1
       else:
